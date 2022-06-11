@@ -1,1 +1,2 @@
 # projen-statemachine-go
+Go bindings for [projen-simple](https://github.com/HsiehShuJeng/projen-simple.git). These are automatically updated from the [projen-simple](https://github.com/HsiehShuJeng/projen-simple.git) repository - if you would like to report a bug or make a pull request, please submit it there.
