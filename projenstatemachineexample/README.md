@@ -22,7 +22,7 @@ $ cdk --init language typescript
 $ yarn add projen-statemachine-example
 ```
 
-```go
+```typescript
 import { StateMachineApiGatewayExample } from 'projen-statemachine-example';
 
  export class TypescriptStack extends cdk.Stack {
