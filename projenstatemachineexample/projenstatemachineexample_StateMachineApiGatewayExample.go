@@ -66,6 +66,9 @@ func (j *jsiiProxy_StateMachineApiGatewayExample) StateMachine() awsstepfunction
 func NewStateMachineApiGatewayExample(parent constructs.Construct, name *string, props *StateMachineApiGatewayExampleProps) StateMachineApiGatewayExample {
 	_init_.Initialize()
 
+	if err := validateNewStateMachineApiGatewayExampleParameters(parent, name, props); err != nil {
+		panic(err)
+	}
 	j := jsiiProxy_StateMachineApiGatewayExample{}
 
 	_jsii_.Create(
@@ -107,6 +110,9 @@ func NewStateMachineApiGatewayExample_Override(s StateMachineApiGatewayExample, 
 func StateMachineApiGatewayExample_IsConstruct(x interface{}) *bool {
 	_init_.Initialize()
 
+	if err := validateStateMachineApiGatewayExample_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
