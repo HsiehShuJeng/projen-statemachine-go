@@ -1,6 +1,5 @@
 //go:build no_runtime_type_checking
 
-// An example construct for deploying to npm, PyPi, Maven, and Nuget with Amazon API Gateway and AWS Step Functions.
 package projenstatemachineexample
 
 // Building without runtime type checking enabled, so all the below just return nil

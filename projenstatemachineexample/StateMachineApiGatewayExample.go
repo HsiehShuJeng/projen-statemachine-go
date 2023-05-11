@@ -1,4 +1,3 @@
-// An example construct for deploying to npm, PyPi, Maven, and Nuget with Amazon API Gateway and AWS Step Functions.
 package projenstatemachineexample
 
 import (
