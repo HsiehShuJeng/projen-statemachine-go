@@ -84,8 +84,8 @@ $ mvn package
 .
 <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <custom.construct.version>0.1.20</custom.construct.version>
-     <cdk.version>1.104.0</cdk.version>
+     <custom.construct.version>2.0.474</custom.construct.version>
+     <cdk.version>2.149.0</cdk.version>
      <junit.version>5.7.1</junit.version>
  </properties>
  .
@@ -148,7 +148,7 @@ public class JavaStack extends Stack {
 
 ```bash
 $ cdk init --language csharp
-$ dotnet add src/Csharp package Projen.Statemachine --version 0.1.21
+$ dotnet add src/Csharp package Projen.Statemachine --version 2.0.474
 ```
 
 ```cs
